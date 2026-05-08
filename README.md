@@ -23,9 +23,9 @@ All services are defined in `services.json`. No need to touch `run.bat` or `run.
 ## Usage
 
 ```bat
-run                          # show available services
-run payments                 # run one service in the current window
-run payments bradesco adyen  # open each service in its own colored window
+run                     # show available services
+run api                 # run one service in the current window
+run api frontend        # open each service in its own colored window
 ```
 
 ## Configuration
