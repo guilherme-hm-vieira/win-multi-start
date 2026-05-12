@@ -1,0 +1,14 @@
+[
+  {
+    "name": "api",
+    "color": "0A",
+    "path": "C:\\Projects\\my-api",
+    "command": ".\\gradlew bootRunDebug"
+  },
+  {
+    "name": "frontend",
+    "color": "0B",
+    "path": "C:\\Projects\\my-frontend",
+    "command": "npm run dev"
+  }
+]
