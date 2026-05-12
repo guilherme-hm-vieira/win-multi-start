@@ -55,6 +55,6 @@ foreach ($name in $args) {
         continue
     }
     $label = $svc.name.ToUpper()
-    $cmdStr = "color $($svc.color) && echo ===== $label ===== && echo. && cd /d ""$($svc.path)"" && $($svc.command)"
+    $cmdStr = "title $label && color $($svc.color) && echo ===== $label ===== && echo. && cd /d ""$($svc.path)"" && $($svc.command)"
     Start-Process cmd -ArgumentList "/k", $cmdStr
 }
